@@ -683,32 +683,40 @@ margin-bottom: 16px;
 }
 
 .footer-input-email {
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  background-color: transparent;
+
   margin-right: 24px;
-  background-color: inherit;
   border: 1px solid #fff;
 border-radius: 4px;
 width: 264px;
 height: 40px;
 }
 
-.footer-input-email::placeholder {
-  color: #fff;
-}
-
 .last-icon {
-  fill: #fff;
+  margin-left: 16px;
 }
 
 .footer-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   border-radius: 4px;
 padding: 8px 24px;
-width: 165px;
+min-width: 165px;
 height: 40px;
-background-color: #4d5ae5;
-color: #fff;
+background-color: #4D5AE5;
+color: #ffffff;
 border: none;
 }
