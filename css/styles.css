@@ -767,6 +767,12 @@ background-color: #31d0aa;
     width: 100%;
   }
 
+  input:checked + .user-privacy .privacy-span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+  }
+
 
 
 
