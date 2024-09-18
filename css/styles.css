@@ -614,8 +614,8 @@ background-color: #31d0aa;
     border: none;
   }
   
-  .button-modal-window:hover + .icon-exit, 
-  .button-modal-window:focus + .icon-exit {
+  .button-modal-window:hover .icon-exit, 
+  .button-modal-window:focus .icon-exit {
     fill: #ffffff;
   }
   
@@ -674,7 +674,7 @@ background-color: #31d0aa;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .input-text:focus + .icon-overlay {
+  .input-text:focus-within + .icon-overlay {
     fill: #4D5AE5;
   }
   
@@ -684,10 +684,6 @@ background-color: #31d0aa;
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .input-text .icon-overlay:focus {
-    fill: #4D5AE5;
   }
   
   .textarea-container {
@@ -741,6 +737,12 @@ background-color: #31d0aa;
   .privacy-link {
     color: #4d5ae5;
   }
+
+  input:checked + .user-privacy > .privacy-span {
+    background-color: #404bbf;
+    border: none;
+    fill: #f4f4fd;
+  }
   
   .modal-button {
     display: block;
@@ -767,11 +769,6 @@ background-color: #31d0aa;
     width: 100%;
   }
 
-  input:checked + .user-privacy .privacy-span {
-    background-color: #404bbf;
-    border: none;
-    fill: #f4f4fd;
-  }
 
 
 
