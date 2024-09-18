@@ -675,7 +675,7 @@ background-color: #31d0aa;
   }
   
   .input-text:focus-within + .icon-overlay {
-    fill: #4D5AE5;
+    border-color: #4D5AE5;
   }
   
   .icon-overlay {
@@ -738,7 +738,7 @@ background-color: #31d0aa;
     color: #4d5ae5;
   }
 
-  input[type="checkbox"]:checked + .user-privacy > .privacy-span {
+  input:checked + .user-privacy > .privacy-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
