@@ -674,7 +674,7 @@ background-color: #31d0aa;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .input-text:focus-within + .icon-overlay {
+  .input-text:focus-within {
     border-color: #4D5AE5;
   }
   
@@ -738,7 +738,7 @@ background-color: #31d0aa;
     color: #4d5ae5;
   }
 
-  input:checked + .user-privacy > .privacy-span {
+  input[type="checkbox"]:checked + .checkbox-label > .privacy-span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
