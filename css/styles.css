@@ -730,9 +730,9 @@ background-color: #31d0aa;
   fill: transparent;
   }
   
-
-
-
+  .privacy-link {
+    color: #4d5ae5;
+  }
 
   input[type="checkbox"]:checked + .checkbox-label > .privacy-span {
     background-color: #404bbf;
